@@ -3,7 +3,7 @@ Membuat Api sederhana menggunakan Node.Js. Baca Dokumentasi dari [Node.js]([http
 
 - **Endpoint CRUD:** API ini menyediakan endpoint untuk operasi CRUD pada entitas tertentu.
 - **Penggunaan Express:** Menggunakan framework Express.js untuk mempermudah penanganan rute dan middleware.
-- **Koneksi Database:** Terhubung ke database (misalnya MongoDB) untuk menyimpan data entitas.
+- **Koneksi Database:** Terhubung ke database (misalnya phpmyadmin) untuk menyimpan data entitas.
 - **Validasi Input:** Melakukan validasi input sebelum memproses permintaan.
 
 
