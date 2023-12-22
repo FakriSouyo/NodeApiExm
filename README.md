@@ -33,13 +33,13 @@ Jadi, jika Anda ingin menggunakan npm, Anda hanya perlu mengunduh dan menginstal
 4. Clone repositori ini menggunakan Node.Js prompt atau terminal:
 
     ```bash
-    git clone https://github.com/<username>/node-api-basic-example.git
+    git clone https://github.com/FakriSouyo/NodeApiExm.git
     ```
 
 5. Buka direktori proyek:
 
     ```bash
-    cd node-api-basic-example
+    cd NodeApiExm
     ```
 
 6. Instal dependensi:
