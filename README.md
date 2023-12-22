@@ -1,5 +1,5 @@
 # Node.js API Basic Example
-Membuat Api sederhana menggunakan Node.Js. Baca Dokumentasi dari [Node.js]([https://www.example.com/](https://nodejs.org/docs/latest/api/)https://nodejs.org/docs/latest/api/) untuk informasi lebih lanjut.
+Membuat Api sederhana menggunakan Node.Js. Baca Dokumentasi dari [Node.js](https://www.example.com/](https://nodejs.org/docs/latest/api/)https://nodejs.org/docs/latest/api/) untuk informasi lebih lanjut.
 
 - **Endpoint CRUD:** API ini menyediakan endpoint untuk operasi CRUD pada entitas tertentu.
 - **Penggunaan Express:** Menggunakan framework Express.js untuk mempermudah penanganan rute dan middleware.
