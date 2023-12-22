@@ -45,33 +45,33 @@ app.post('/api/kontak', (req, res) => {
 
 // PUT rute untuk memperbarui informasi kontak
 app.put('/api/kontak/:id', (req, res) => {
-  const contactId = parseInt(req.params.id);
+  const KontakId = parseInt(req.params.id);
   const { nama, email, nohp } = req.body;
 
   if (!nama || !email || !nohp) {
     return res.status(400).json({ error: 'Nama, email, and nohp are required fields' });
   }
 
-  const updatedContact = { nama, email, nohp };
+  const updatedKontak = { nama, email, nohp };
 
-  pool.execute('UPDATE kontak SET ? WHERE id = ?', [updatedContact, contactId], (err) => {
+  pool.execute('UPDATE kontak SET ? WHERE id = ?', [updatedKontak, KontakId], (err) => {
     if (err) {
       res.status(500).json({ error: 'Error updating data in the database' });
     } else {
-      res.json({ message: 'Contact updated successfully' });
+      res.json({ message: 'Kontak updated successfully' });
     }
   });
 });
 
 // DELETE rute untuk menghapus kontak
 app.delete('/api/kontak/:id', (req, res) => {
-  const contactId = parseInt(req.params.id);
+  const KontakId = parseInt(req.params.id);
 
-  pool.execute('DELETE FROM kontak WHERE id = ?', [contactId], (err) => {
+  pool.execute('DELETE FROM kontak WHERE id = ?', [KontakId], (err) => {
     if (err) {
       res.status(500).json({ error: 'Error deleting data from the database' });
     } else {
-      res.json({ message: 'Contact deleted successfully' });
+      res.json({ message: 'Kontak deleted successfully' });
     }
   });
 });
